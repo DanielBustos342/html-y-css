@@ -1,0 +1,49 @@
+*{
+    font-family: 'Tapestry', cursive;
+}
+h1{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 50px;
+    margin: 0 150px;
+    border-radius: 25px;
+}
+.nav__conteiner{
+    background: #f00;
+}
+.nav__li{
+    background-color: aqua;
+    display: inline-block;
+    padding: 20px;
+    margin: 0 25px;
+
+}
+.div-conteiner{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 100vw;
+    align-items: stretch;
+
+}
+.caja1, .caja2, .caja3{
+    display: inline-block;
+    background: chartreuse;
+    padding: 150px;
+    margin: 15px;
+    color: black;
+    border: 5px solid #000;
+    border-radius: 50%;
+}
+.nav__ul-movile{
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+    .nav__ul{
+        display: none;
+    }
+    .nav__ul-movile{
+        display: block;
+    }
+}

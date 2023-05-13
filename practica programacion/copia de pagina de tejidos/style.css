@@ -1,0 +1,119 @@
+.article1{
+    background-color: #c292c2;
+    position: relative;
+    width: 1366px;
+    height: 567px;
+}
+#formulario{
+    background-color: blue;
+ 
+}
+h1{
+    text-align: center;
+    padding: 15px 10px;
+    margin: auto;
+
+}
+video{
+position: absolute;
+right: 0;
+top: 100px;
+display: inline-block;
+padding: 0 100px 0 0;
+width: 600px;
+}
+.container{
+    height: 567px;
+    width: 1366px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caja1, .caja2, .caja3{
+    display: inline-block;
+    width: 33%;
+}
+nav{
+    width: 0 auto;
+}
+.aprender{
+    position: absolute;
+    top:150px;
+    padding: 0 0 0 150px;
+    display: inline-block;
+}
+h3, .pcenter{
+    text-align: center;
+    margin: 50px;
+}
+.contenedorfooter{
+    position: relative;
+    width: 1366px;
+    height: 400px;
+    background-color: #3a3a3a;
+}
+.listafooter, .pago, .contacto, .siguenos{
+    color: white;
+    display: inline-block;
+    width: 20%;
+}
+a{
+    color: black;
+    text-decoration: dashed;
+}
+a:hover{
+    color: #c292c2;
+}
+.copyright{
+    background: #3a3a3a;
+    margin: 1px;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+.afooter{
+    color: white;
+    text-decoration: dashed;
+}
+.formulario{
+    margin: 25px;
+    padding: 25px;
+}
+.nav__responsive-ul{
+    display: none;
+    background-color: #48e;
+}
+.nav__li{
+    display: inline-block;
+    padding: 20px;
+}
+.nav__responsive-button{
+    float: right;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: aqua;
+    margin: 23px 100px 0 0;
+}
+@media only screen and (max-width: 1000px) {
+    .nav__ul{
+        display: none;
+    }
+    .nav__responsive-ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+    }
+    .nav{
+        height: 100px;
+        width: 100%;
+    }
+} 
+
+.pepita{
+    background-color: #48e;
+    display: inline-block;
+}
+.pepita1{
+    background-color: aqua;
+}
